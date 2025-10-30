@@ -6,10 +6,8 @@ Tells you if a number is even or odd
 import from libs folder.
 
 ```
-#include "libs/isEvenOrOdd.c"
+#include "libs/isEvenOrOdd.h"
 ```
-> [!NOTE]
-> You do not have to put the library in `libs/` however it is reccomended.
 
 # Functions
 
@@ -30,3 +28,10 @@ isEvenOrOdd tells you if a number is even or odd.
 ```
 isEvenOrOdd();
 ```
+
+## Installation
+Download the .zip folder. and extract them and place the header file (the `.h` file) and the object file (the `.a` file) in these locations.
+
+the header file goes in `C:\msys64\mingw64\include`
+
+while the object file goes in `C:\msys64\mingw64\lib`.
